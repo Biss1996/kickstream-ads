@@ -18,6 +18,17 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'gradient-field': 'var(--gradient-field)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'grass-pattern': 'var(--grass-pattern)',
+			},
+			boxShadow: {
+				'stadium': 'var(--shadow-stadium)',
+				'card-football': 'var(--shadow-card)',
+				'live': 'var(--shadow-live)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +63,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Football theme colors
+				'field-green': {
+					DEFAULT: 'hsl(var(--field-green))',
+					light: 'hsl(var(--field-green-light))'
+				},
+				'stadium-dark': 'hsl(var(--stadium-dark))',
+				'match-live': 'hsl(var(--match-live))',
+				'match-upcoming': 'hsl(var(--match-upcoming))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
